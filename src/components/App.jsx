@@ -1,16 +1,11 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Reader from './Reader/Reader';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <Reader />
     </div>
   );
 };
